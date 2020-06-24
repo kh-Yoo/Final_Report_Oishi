@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_item"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:enabled="true"
+        android:checked="true"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/heart_item"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:enabled="true"
+        android:title="@string/favorite_store"/>
+    <item
+        android:id="@+id/myuser_item"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+        android:enabled="true"
+        android:title="@string/my_user"/>
+</menu>

@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Oishi</string>
+    <string name="prefLoginState">login-state</string>
+    <string name="prefFavoriteState">favorite-state</string>
+    <string name="NoImage">이미지가 열리지 않습니다.</string>
+    <string name="alter">변경</string>
+    <string name="delivery_info">배달정보</string>
+    <string name="pay_in_cash">만나서 현금결제</string>
+    <string name="pay_in_card">만나서 카드결제</string>
+    <string name="samsung_pay">SAMSUNG PAY</string>
+    <string name="mobile_phone_payment">휴대폰결제</string>
+    <string name="credit_card_payment">신용/체크카드</string>
+    <string name="alter_phone_number">변경하기</string>
+    <string name="present_phone_number">현재 전화번호</string>
+    <string name="new_phone_number">변경할 전화번호</string>
+    <string name="ToStore">가게 사장님께</string>
+    <string name="request">요청사항</string>
+    <string name="auto_save">자동 저장</string>
+    <string name="ToRider">라이더님께</string>
+    <string name="ToStore_hint">예) 오이 빼주세요, 일회용 수저, 포크 안 주셔도 돼요</string>
+    <string name="ToRider_hint">예) 집 앞에 두고 벨을 눌러 주세요~</string>
+    <string name="payment_amount">결제금액보기</string>
+    <string name="order_amount">주문금액</string>
+    <string name="delivery_tip">배달팁</string>
+    <string name="pay_order">결제하기</string>
+    <string name="all_payment_amount">총 결제금액</string>
+    <string name="id_hint">아이디를 입력해 주세요</string>
+    <string name="password_hint">비밀번호를 입력해 주세요</string>
+    <string name="stay_logged_in">로그인 상태 유지</string>
+    <string name="log_in">로그인</string>
+    <string name="register">회원가입</string>
+    <string name="find_id">아이디 찾기</string>
+    <string name="find_password">비밀번호 찾기</string>
+
+    <string name="create_id_hint">아이디 입력(5~11자)</string>
+    <string name="create_password_hint">비밀번호(숫자,영문,특수문자 조합 최소8자)</string>
+    <string name="create_name_hint">이름</string>
+    <string name="create_email_hint">이메일(example@example.com)</string>
+    <string name="create_phone_hint">휴대전화(\'-\'없이입력해주세요)</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="register_button">가입하기</string>
+
+    <string name="input_email">이메일 입력</string>
+    <string name="input_id">아이디 입력</string>
+
+    <string name="confirm_authentic">인증번호 확인</string>
+    <string name="description">이메일을 확인하시고 인증번호를 입력하세요</string>
+    <string name="confirm">확인</string>
+    <string name="user_information">회원 정보</string>
+
+    <string name="home">홈</string>
+    <string name="favorite_store">찜한가게</string>
+    <string name="my_user">My오이시</string>
+
+    <string name="user_address">현재 위치</string>
+    <string name="korean_food">한식</string>
+    <string name="snack_food">분식</string>
+    <string name="cafe">카페·디저트</string>
+    <string name="chicken">치킨</string>
+    <string name="pizza">피자</string>
+    <string name="chinese_food">중국집</string>
+    <string name="late_night_food">야식</string>
+    <string name="lunchbox">도시락</string>
+    <string name="fast_food">패스트푸드</string>
+    <string name="search_content">먹고 싶은 메뉴, 가게 검색</string>
+
+    <string name="immediate_payment">바로결제</string>
+    <string name="phone_order">전화주문</string>
+
+    <string name="member_information">회원정보</string>
+    <string name="log_out">로그아웃</string>
+    <string name="point">포인트</string>
+    <string name="coupon_box">쿠폰함</string>
+    <string name="order_list">주문내역</string>
+    <string name="review_management">리뷰관리</string>
+    <string name="appVersion">어플리케이션 버전 : 0.1 Ver</string>
+    <string name="developer">개발자 : Oishi(유종원, 유강현, 주동철)</string>
+    <string name="homePage">홈페이지 = http://lionkiing33.cafe24.com</string>
+    <string name="developerIntroduce">홈페이지 운영진 소개</string>
+    <string name="developerName1">유종원</string>
+    <string name="developerMajor1">스마트정보통신공학과 16학번</string>
+    <string name="developerEmail1">2e40camn@naver.com</string>
+    <string name="developerName2">유강현</string>
+    <string name="developerMajor2">스마트정보통신공학과 16학번</string>
+    <string name="developerEmail2">example@naver.com</string>
+    <string name="developerName3">주동철</string>
+    <string name="developerMajor3">스마트정보통신공학과 16학번</string>
+    <string name="developerEmail3">example@naver.com</string>
+
+    <string name="setting_address_content">지번, 도로명, 건물명을 입력하세요</string>
+    <string name="search_address_example">예) 오이시동 12–3 또는 오이시아파트</string>
+    <string name="current_location_setting">현 위치로 주소 설정</string>
+
+    <string name="address_normal_type">지번주소로 보기</string>
+    <string name="this_location_setting">이 위치로 주소 설정</string>
+
+    <string name="delivery_address">배달 받을 주소</string>
+    <string name="input_detail_address">상세주소를 입력하세요(건물명, 동/호수 등)</string>
+    <string name="complete">완료</string>
+
+    <string name="main_store_min_price">최소주문금액</string>
+    <string name="main_store_delivery_time">배달시간</string>
+    <string name="main_store_delivery_tip_Text">배달팁</string>
+    <string name="payment_method">결제방법</string>
+    <string name="payment_method_content">바로결제, 만나서결제</string>
+    <string name="main_store_rating">별점</string>
+    <string name="main_store_sorting">기본순</string>
+    <string name="shopping_basket">장바구니</string>
+    <string name="all_clear">전체삭제</string>
+    <string name="delivery">배달</string>
+    <string name="pacakage">포장</string>
+    <string name="total_order_amount">총 주문 가격</string>
+    <string name="order">주문하기</string>
+    <string name="add_order_list">더 담으러 가기</string>
+    <string name="delete">삭제</string>
+    <string name="add_item">+</string>
+    <string name="subtract_item">-</string>
+    <string name="menu_normal_price">기본</string>
+    <string name="quantity">수량</string>
+    <string name="put_shopping_basket">담기</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Ted Permission -->
+    <string name="permission_1">[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+
+    <string name="main_store_statistics">가게 통계</string>
+    <string name="recent_order_number">최근 주문수</string>
+    <string name="all_review_number">전체 리뷰수</string>
+    <string name="heart">찜</string>
+    <string name="main_store_info">영업 정보</string>
+    <string name="main_store_running_time">운영 시간</string>
+    <string name="main_store_holiday">휴무일</string>
+    <string name="main_store_number">전화번호</string>
+    <string name="main_store_delivery_tip_manual">배달팁 안내</string>
+    <string name="main_store_delivery_tip_info">배달팁은 라이더에게 드리는 비용입니다.</string>
+</resources>

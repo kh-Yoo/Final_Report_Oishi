@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_americano"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/powder_blue"
+    tools:context=".purchase.americano">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/store_name_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예) 가게이름"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.example.oishi.StickyScrollView
+            android:id="@+id/main_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_cyan"
+                    android:orientation="vertical"
+                    android:tag="sticky-nonconstant-hastransparancy">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/menu_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="@string/NoImage"
+                            android:padding="10dp"
+                            android:src="@drawable/cafe_menu1" />
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="예) 메뉴 이름"
+                            android:textColor="@android:color/black"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/light_cyan"
+                        android:padding="10dp"
+                        android:stretchColumns="0,1,2">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:text="@string/menu_normal_price"
+                                android:textColor="@android:color/black"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/menu_base_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="end"
+                                android:text="예) 메뉴 가격"
+                                android:textColor="@android:color/black"
+                                android:textSize="25sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="start"
+                                android:gravity="center"
+                                android:text="@string/quantity"
+                                android:textColor="@android:color/black"
+                                android:textSize="25sp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="end"
+                                android:orientation="horizontal"
+                                android:background="@drawable/custom_left_corners_button">
+
+                                <ImageButton
+                                    android:id="@+id/count_down"
+                                    android:layout_width="50sp"
+                                    android:layout_height="50sp"
+                                    android:src="@drawable/ic_remove_black_24dp"
+                                    android:scaleType="centerCrop"
+                                    android:background="@color/light_cyan"
+                                    android:layout_alignParentStart="true"
+                                    android:contentDescription="@string/NoImage"/>
+
+                                <TextView
+                                    android:id="@+id/count_number"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="1"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/sky_blue"
+                                    android:layout_centerInParent="true"/>
+
+                                <ImageButton
+                                    android:id="@+id/count_up"
+                                    android:layout_width="50sp"
+                                    android:layout_height="50sp"
+                                    android:src="@drawable/ic_add_black_24dp"
+                                    android:scaleType="centerCrop"
+                                    android:background="@color/light_cyan"
+                                    android:layout_alignParentEnd="true"
+                                    android:contentDescription="@string/NoImage"/>
+
+                            </RelativeLayout>
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <com.example.oishi.purchase.PurchaseRecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:tag="sticky" />
+
+            </LinearLayout>
+
+        </com.example.oishi.StickyScrollView>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/put_shopping_basket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/put_shopping_basket"
+        android:textSize="20sp"
+        android:background="@color/powder_blue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

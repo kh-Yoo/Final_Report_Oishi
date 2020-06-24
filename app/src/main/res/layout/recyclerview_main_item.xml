@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerview_main_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:contentPaddingTop="10dp"
+        card_view:contentPaddingLeft="15dp"
+        card_view:contentPaddingRight="15dp"
+        card_view:contentPaddingBottom="10dp"
+        card_view:cardBackgroundColor="@color/powder_blue">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_up_black_24dp"
+            android:textColor="@android:color/black"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

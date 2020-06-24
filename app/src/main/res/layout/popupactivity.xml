@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:background="@color/powder_blue"
+    android:layout_height="match_parent"
+    tools:context=".review.PopupActivity">
+
+
+    <TextView
+        android:layout_marginTop="-100dp"
+        android:text="리뷰 등록"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:background="@color/light_cyan"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/re_review_id"
+        android:gravity="center"
+        android:background="@color/light_cyan"
+        android:hint="본인의 아이디를 입력하세요."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:text="음식 후기"
+        android:textColor="@android:color/black"
+        android:background="@color/light_cyan"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/re_review_content"
+        android:background="@color/light_cyan"
+        android:gravity="center"
+        android:hint="음식 후기를 입력하세요."
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_cyan"
+        android:orientation="vertical">
+        <TextView
+            android:text="별점"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/rating"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1"
+            style="@style/Widget.AppCompat.RatingBar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/bt_ok"
+        android:background="@color/powder_blue"
+        android:text="입력완료"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

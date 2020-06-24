@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2"
+    android:layout_marginTop="10dp"
+    android:background="@color/light_cyan"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/order_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="예) 아이스 아메리카노"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/delete_order"
+            android:layout_width="27dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:text="@string/delete"
+            android:textColor="@color/sky_blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/order_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="예) 기본 : 5,000원"
+            android:textSize="15sp"
+            android:layout_gravity="start"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="예) 5,000원"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_gravity="start"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:background="@drawable/custom_left_corners_button">
+
+            <Button
+                android:id="@+id/count_down"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_remove_black_24dp"
+                android:background="@color/light_cyan"
+                android:layout_marginEnd="100sp"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:id="@+id/count_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="예) 1개"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"/>
+
+            <Button
+                android:id="@+id/count_up"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_add_black_24dp"
+                android:background="@color/light_cyan"
+                android:layout_marginStart="100sp"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </TableRow>
+
+</TableLayout>

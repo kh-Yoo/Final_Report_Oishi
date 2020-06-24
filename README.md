@@ -1945,8 +1945,6 @@ public class FoodBrandListViewItem {
 
 
 
-**Splash Activity**  
-
 **데이터베이스**   
 ![image](https://user-images.githubusercontent.com/62701551/85317351-378c0100-b4f9-11ea-837a-3123902bb8e9.png)   
 

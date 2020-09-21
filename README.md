@@ -17,8 +17,8 @@
 고객들이 많이 사용하는 앱일수록 고객들의 니즈를 파악하여 앱을 유지보수하는 것이 중요하다고 생각했다.
 ![KakaoTalk_20200921_190737772](https://user-images.githubusercontent.com/62977669/93766771-e2739e80-fc51-11ea-82a2-351c7e0628d4.jpg)
 
+<iframe width="640" height="360" src="https://youtu.be/9CgZFwSuNXo" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 ![배민성장률](https://user-images.githubusercontent.com/62701551/85105330-4cd90500-b245-11ea-92c4-1050d5a1c57c.png)
-
 ## 2. 프로젝트 목표
 
 배달의민족 앱을 사용하는 고객들의 불편한 점이나 개선되었으면 하는 점을 조사하게 되었고 우리 팀이 발견한 불편한 점은 리뷰에 관한 것이었다.

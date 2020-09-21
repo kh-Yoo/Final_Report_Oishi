@@ -16,9 +16,7 @@
 코로나19 영향으로 배달음식 수요가 증가함에 따라 매출은 전년보다 더 증가할 것으로 예측된다.  
 고객들이 많이 사용하는 앱일수록 고객들의 니즈를 파악하여 앱을 유지보수하는 것이 중요하다고 생각했다.
 ![KakaoTalk_20200921_190737772](https://user-images.githubusercontent.com/62977669/93766771-e2739e80-fc51-11ea-82a2-351c7e0628d4.jpg)
-
-
-<iframe width="560" height="315" src="https://youtu.be/9CgZFwSuNXo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9CgZFwSuNXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ![배민성장률](https://user-images.githubusercontent.com/62701551/85105330-4cd90500-b245-11ea-92c4-1050d5a1c57c.png)
 ## 2. 프로젝트 목표
 
